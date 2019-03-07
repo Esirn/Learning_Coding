@@ -1,5 +1,5 @@
 #include<stdio.h>
-long long jc(int k)//·µ»Øk!¡£
+long long jc(int k)//è¿”å›k!ã€‚
 {
 	if(k!=1)return k*jc(k-1);
 	else return 1;
@@ -9,7 +9,7 @@ int main()
 	long long temp=0;
 	double S=0;
 	int i;
-	//ÕâµÀÌâ½öÓÃ long ×÷Êı¾İÀàĞÍÊÇ²»¹»µÄ£¬Ó¦¸ÃÓÃlong long¡£ 
+	//è¿™é“é¢˜ä»…ç”¨ long ä½œæ•°æ®ç±»å‹æ˜¯ä¸å¤Ÿçš„ï¼Œåº”è¯¥ç”¨long longã€‚ 
 	for(i=1;i<20;i+=3)
 	{
 		temp += jc(i);

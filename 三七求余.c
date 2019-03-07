@@ -3,7 +3,7 @@ int main()
 {
 	int n;
 	float s=0;
-	printf("请输入一个数\n");
+	printf("璇疯緭鍏ヤ竴涓暟\n");
 	scanf("%d",&n);
 	for(;n>0;n--)
 	{
