@@ -1,5 +1,5 @@
 #include<stdio.h>
-bool IsContain(int i)
+int IsContain(int i)
 {
 	if(i/100==3 || i/10%10==3 || i%100==3)
 		return 1;
