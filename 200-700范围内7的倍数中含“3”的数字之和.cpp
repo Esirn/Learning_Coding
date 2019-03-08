@@ -1,5 +1,6 @@
-#include<stdio.h>
-int IsContain(int i)
+#include<iostream>
+using namespace std;
+bool IsContain(int i)
 {
 	if(i/100==3 || i/10%10==3 || i%100==3)
 		return 1;
@@ -9,15 +10,15 @@ int IsContain(int i)
 int main()
 {
 	int i=200,sum=0;
-	printf("200~700范围内，7的倍数且包含数字“3”的数字之和为：\n0",i);
+	cout<<"200~700范围内，7的倍数且包含数字“3”的数字之和为："<<endl;
 	for(;i<701;i++)
 	{
 		if(i%7==0 && IsContain(i))
 		{
 			sum += i;
-			printf("+%d",i);
+			cout<<'+'<<i;
 		}
 	}
-	printf("=%d",sum);
+	cout<<'='<<sum;
 	return 0;
 }
