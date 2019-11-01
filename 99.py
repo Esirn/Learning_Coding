@@ -9,4 +9,3 @@ for a in range(0,10):
 
 for a in range(0,10):
     print("c[{0}]={1}\t{2}".format(a,c[a],c[a]/200))
-
